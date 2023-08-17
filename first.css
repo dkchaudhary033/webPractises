@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+#wrapper{
+    height: 100vh;
+    width:100vw;
+    overflow-y:auto ;
+    overflow-x: hidden;
+}
+
+.container{
+    height:100vh;
+    width: 1500px;
+    margin: 10px;
+}
+
+.container h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.gallary{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    object-fit: cover;
+}
+
+.card{
+    width:32%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}

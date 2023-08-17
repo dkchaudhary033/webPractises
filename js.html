@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      setTimeout(function () {
+        console.log("kYa me chala");
+      }, 2000);
+
+      function foo1() {
+        return {
+          bar: "hello",
+        };
+      }
+      function foo2() {
+        return;
+        {
+          bar: "hello";
+        }
+      }
+
+      /*
+    
+        // Normal Function
+     function test()
+    {
+      return 1;
+    }
+    test();
+    
+    // Anonymous Function
+    let test2 = function()
+    {
+      return 0;
+    }
+    console.warn(test2());
+    
+    // Arrow Function
+    let test3 = ()=>
+    {
+      return 10;
+    }
+    console.warn(test3());
+    
+    // Normal Function with Array
+    let newData = [10,20,30,50,80];
+    
+    let nayaData = newData.map(function(item)
+    {
+      return item*2;
+    })
+    console.log(nayaData);
+    
+    // Arrow Function with Array
+    let data = newData.map((item)=>item*2);
+    console.warn(data);
+     
+    // difference bt var , let , const
+    function abcd(){
+      for(var i=1; i<10; i++){
+        console.log(i);
+      }
+        console.log(i);
+    }
+        abcd();
+    
+    */
+    </script>
+  </body>
+</html>
